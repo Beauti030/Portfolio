@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beauti Karan | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #1e1e2f;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background: #111827;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00bcd4;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    section {
+      background: white;
+      margin-bottom: 30px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    h2 {
+      margin-bottom: 15px;
+      border-left: 5px solid #00bcd4;
+      padding-left: 10px;
+      color: #1e1e2f;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+    .contact a {
+      color: #00bcd4;
+      text-decoration: none;
+    }
+    .project-title {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Beauti Karan</h1>
+    <p class="contact"> 📧 <a href="mailto:beautikarn01@gmail.com">beautikarn01@gmail.com</a></p>
+  </header>
+
+  <nav>
+    <a href="#objective">Objective</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#internship">Internship</a>
+    <a href="#achievements">Achievements</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="objective">
+      <h2>🎯 Objective</h2>
+      <p>Enthusiastic Computer Science Student with a passion for solving complex problems. Seeking to leverage my programming skills and knowledge of algorithms in a challenging role at Juspay.</p>
+    </section>
+
+    <section id="education">
+      <h2>🎓 Education</h2>
+      <p><strong>Bachelor of Technology (B.Tech)</strong> in Computer Science and Engineering</p>
+      <p>Galgotias University, Gautam Buddha Nagar, Uttar Pradesh</p>
+      <p>CGPA: 8.23/10</p>
+      <p><strong>Relevant Coursework:</strong> Data Structures, Algorithms, Database Management, Operating Systems, Computer Networks</p>
+    </section>
+
+    <section id="skills">
+      <h2>💻 Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Java, Python, JavaScript</li>
+        <li><strong>Web Technologies:</strong> HTML, CSS, React.js</li>
+        <li><strong>Databases:</strong> MySQL, MongoDB</li>
+        <li><strong>Version Control:</strong> Git, GitHub</li>
+        <li><strong>Other:</strong> Data Structures, Algorithms, OOP, System Design</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>🛠️ Projects</h2>
+      <p class="project-title">Certificate Verification System</p>
+      <ul>
+        <li>Streamlines the process of issuing and verifying internship certificates.</li>
+        <li>Excel upload: includes student name, internship domain, certificate ID, and dates.</li>
+        <li><strong>Tech Stack:</strong> MongoDB, Express.js, React.js, Node.js</li>
+      </ul>
+
+      <p class="project-title">Library Management System</p>
+      <ul>
+        <li>Handles book inventory and user requests via a web-based system.</li>
+        <li><strong>Technologies:</strong> React.js, Node.js, MongoDB</li>
+      </ul>
+    </section>
+
+    <section id="internship">
+      <h2>💼 Internship Experience</h2>
+      <p><strong>Web Development Intern</strong> – Zidio (Aug - Oct 2024)</p>
+      <ul>
+        <li>Worked on UX/UI and development for the Certificate Verification System.</li>
+        <li><strong>Tech Stack:</strong> MongoDB, Express.js, React.js, Node.js</li>
+      </ul>
+    </section>
+
+    <section id="achievements">
+      <h2>🏆 Achievements</h2>
+      <p>Scored 95.36% in Naukri Campus Young Turks, India’s largest skill contest 2024.</p>
+    </section>
+
+  </div>
+
+</body>
+</html>
